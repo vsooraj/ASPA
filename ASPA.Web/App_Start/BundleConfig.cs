@@ -41,7 +41,11 @@ namespace ASPA.Web.App_Start
             bundles.Add(new ScriptBundle("~/bundles/spa").Include(
                  "~/Scripts/spa/modules/common.core.js",
                 "~/Scripts/spa/modules/common.ui.js",
-                "~/Scripts/spa/app.js"
+                "~/Scripts/spa/app.js",
+                "~/Scripts/spa/home/rootCtrl.js",
+                "~/Scripts/spa/movies/moviesCtrl.js",
+                "~/Scripts/spa/services/apiService.js",
+                "~/Scripts/spa/services/notificationService.js"
                 ));
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/Scripts/Vendors/modernizr.js"));
