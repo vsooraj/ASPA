@@ -195,6 +195,7 @@
     <Content Include="Scripts\spa\customers\customersRegCtrl.js" />
     <Content Include="Scripts\spa\customers\editCustomerModal.html" />
     <Content Include="Scripts\spa\customers\register.html" />
+    <Content Include="Scripts\spa\directives\availableMovie.html" />
     <Content Include="Scripts\spa\home\index.html" />
     <Content Include="Scripts\spa\home\indexCtrl.js" />
     <Content Include="Scripts\spa\home\rootCtrl.js" />
@@ -264,7 +265,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Scripts\spa\home\genre.json" />
     <Content Include="Scripts\spa\movies\movies.json" />
-    <Content Include="Scripts\spa\customers\customer.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
