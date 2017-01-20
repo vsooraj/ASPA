@@ -50,6 +50,9 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/app.js",
                 "~/Scripts/spa/layout/topBar.directive.js",
                 "~/Scripts/spa/layout/sideBar.directive.js",
+                "~/Scripts/spa/customers/customersCtrl.js",
+                "~/Scripts/spa/customers/customersRegCtrl.js",
+                "~/Scripts/spa/customers/customerEditCtrl.js",
                 "~/Scripts/spa/layout/customPager.directive.js",
                 "~/Scripts/spa/home/rootCtrl.js",
                 "~/Scripts/spa/home/indexCtrl.js"
