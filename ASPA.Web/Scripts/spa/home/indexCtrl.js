@@ -10,7 +10,6 @@
         $scope.loadingMovies = true;
         $scope.loadingGenres = true;
         $scope.isReadOnly = true;
-
         $scope.latestMovies = [];
         //$scope.loadData = loadData;      
         $scope.loadData = loadDataMock;
@@ -56,10 +55,18 @@
         }
 
         function loadDataMock() {
-                apiService.get("Scripts/spa/home/genre.json", null,
+            apiService.get("Scripts/spa/home/moviesMock.json", null,
+                moviesLoadCompletedMock,
+                moviesLoadFailed);
+
+            apiService.get("Scripts/spa/home/genresMock.json", null,
                 genresLoadCompletedMock,
-                genresLoadFailed);
-          
+                genresLoadFailed);          
+        }
+
+        function moviesLoadCompletedMock(result) {
+            $scope.latestMovies = result.data;
+            $scope.loadingMovies = false;
         }
 
         function genresLoadCompletedMock(result) {
