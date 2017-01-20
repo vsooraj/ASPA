@@ -28,8 +28,8 @@
                     filter: $scope.filterMovies
                 }
             };
-
-            apiService.get('/api/movies/', config,
+            
+            apiService.get('Scripts/spa/movies/movies.json', config,
             moviesLoadCompleted,
             moviesLoadFailed);
         }
