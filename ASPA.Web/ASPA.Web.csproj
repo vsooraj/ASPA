@@ -190,6 +190,8 @@
     <Content Include="Scripts\spa\home\rootCtrl.js" />
     <Content Include="Scripts\spa\layout\sideBar.directive.js" />
     <Content Include="Scripts\spa\layout\sidebar.html" />
+    <Content Include="Scripts\spa\layout\topBar.directive.js" />
+    <Content Include="Scripts\spa\layout\topBar.html" />
     <Content Include="Scripts\spa\modules\common.core.js" />
     <Content Include="Scripts\spa\modules\common.ui.js" />
     <Content Include="Scripts\spa\movies\movies.html" />
@@ -259,6 +261,7 @@
   <ItemGroup>
     <Folder Include="App_Data\" />
     <Folder Include="Models\" />
+    <Folder Include="Views\Shared\" />
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
