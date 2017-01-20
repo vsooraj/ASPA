@@ -1,0 +1,36 @@
+﻿[
+  {
+    "ID": 5,
+    "FirstName": "Sam",
+    "LastName": "Thomas",
+    "Email": "sam@gmail.com",
+    "IdentityCard": "AS546",
+    "UniqueKey": "00000000-0000-0000-0000-000000000000",
+    "DateOfBirth": "0001-01-01T00:00:00",
+    "Mobile": 9895656,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  },
+  {
+    "ID": 6,
+    "FirstName": "Tom",
+    "LastName": "Thomas",
+    "Email": "tom@gmail.com",
+    "IdentityCard": "AS548",
+    "UniqueKey": "00000000-0000-0000-0000-000000000000",
+    "DateOfBirth": "0001-01-01T00:00:00",
+    "Mobile": 9895656,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  },
+  {
+    "ID": 7,
+    "FirstName": "Mary",
+    "LastName": "Thomas",
+    "Email": "mary@gmail.com",
+    "IdentityCard": "AS547",
+    "UniqueKey": "00000000-0000-0000-0000-000000000000",
+    "DateOfBirth": "0001-01-01T00:00:00",
+    "Mobile": 9895656,
+    "RegistrationDate": "0001-01-01T00:00:00"
+  }
+
+]
