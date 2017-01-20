@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Web.Optimization;
+﻿using System.Web.Optimization;
 
 
 namespace ASPA.Web.App_Start
@@ -43,6 +38,14 @@ namespace ASPA.Web.App_Start
                 "~/Content/css/toastr.css",
                 "~/Content/css/jquery.fancybox.css",
                 "~/Content/css/loading-bar.css"));
+            bundles.Add(new ScriptBundle("~/bundles/spa").Include(
+                 "~/Scripts/spa/modules/common.core.js",
+                "~/Scripts/spa/modules/common.ui.js",
+                "~/Scripts/spa/app.js"
+                ));
+            bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
+                "~/Scripts/Vendors/modernizr.js"));
+
 
             BundleTable.EnableOptimizations = false;
         }
