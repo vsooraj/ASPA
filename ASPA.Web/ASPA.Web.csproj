@@ -143,6 +143,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="color-star.png" />
     <Content Include="Content\css\blank.gif" />
     <Content Include="Content\css\bootstrap-theme.css" />
     <Content Include="Content\css\bootstrap.css" />
@@ -181,6 +182,7 @@
     <Content Include="Content\images\raty\star-off.png" />
     <Content Include="Content\images\raty\star-on-big.png" />
     <Content Include="Content\images\raty\star-on.png" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\spa\app.js" />
     <Content Include="Scripts\spa\modules\common.core.js" />
