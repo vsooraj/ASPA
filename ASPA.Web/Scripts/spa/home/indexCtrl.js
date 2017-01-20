@@ -12,7 +12,8 @@
         $scope.isReadOnly = true;
 
         $scope.latestMovies = [];
-        $scope.loadData = loadData;
+        //$scope.loadData = loadData;      
+        $scope.loadData = loadDataMock;
 
         function loadData() {
             apiService.get('/api/movies/latest', null,
@@ -54,7 +55,34 @@
             $scope.loadingGenres = false;
         }
 
-        loadData();
+        function loadDataMock() {
+                apiService.get("Scripts/spa/home/genre.json", null,
+                genresLoadCompletedMock,
+                genresLoadFailed);
+          
+        }
+
+        function genresLoadCompletedMock(result) {
+            var genres = result.data;
+            console.log(genres);
+            Morris.Bar({
+                element: "genres-bar",
+                data: genres,
+                xkey: "Name",
+                ykeys: ["NumberOfMovies"],
+                labels: ["Number Of Movies"],
+                barRatio: 0.4,
+                xLabelAngle: 55,
+                hideHover: "auto",
+                resize: 'true'
+            });
+
+            $scope.loadingGenres = false;
+        }
+
+        //loadData();
+        loadDataMock();
+
     }
 
 })(angular.module('homeCinema'));
