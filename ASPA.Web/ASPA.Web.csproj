@@ -143,6 +143,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="color-star.png" />
     <Content Include="Content\css\blank.gif" />
     <Content Include="Content\css\bootstrap-theme.css" />
     <Content Include="Content\css\bootstrap.css" />
@@ -181,6 +182,7 @@
     <Content Include="Content\images\raty\star-off.png" />
     <Content Include="Content\images\raty\star-on-big.png" />
     <Content Include="Content\images\raty\star-on.png" />
+    <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
     <Content Include="Scripts\spa\app.js" />
     <Content Include="Scripts\spa\home\index.html" />
@@ -190,6 +192,10 @@
     <Content Include="Scripts\spa\layout\sidebar.html" />
     <Content Include="Scripts\spa\modules\common.core.js" />
     <Content Include="Scripts\spa\modules\common.ui.js" />
+    <Content Include="Scripts\spa\movies\movies.html" />
+    <Content Include="Scripts\spa\movies\moviesCtrl.js" />
+    <Content Include="Scripts\spa\services\apiService.js" />
+    <Content Include="Scripts\spa\services\notificationService.js" />
     <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
     <Content Include="Scripts\vendors\angular-base64.js" />
     <Content Include="Scripts\vendors\angular-cookies.js" />

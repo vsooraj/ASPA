@@ -38,9 +38,15 @@ namespace ASPA.Web.App_Start
                 "~/Content/css/toastr.css",
                 "~/Content/css/jquery.fancybox.css",
                 "~/Content/css/loading-bar.css"));
+
             bundles.Add(new ScriptBundle("~/bundles/spa").Include(
                  "~/Scripts/spa/modules/common.core.js",
                 "~/Scripts/spa/modules/common.ui.js",
+                "~/Scripts/spa/app.js",
+                "~/Scripts/spa/home/rootCtrl.js",
+                "~/Scripts/spa/movies/moviesCtrl.js",
+                "~/Scripts/spa/services/apiService.js",
+                "~/Scripts/spa/services/notificationService.js",
                 "~/Scripts/spa/app.js",
                 "~/Scripts/spa/layout/topBar.directive.js",
                 "~/Scripts/spa/layout/sideBar.directive.js",
@@ -48,6 +54,7 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/home/rootCtrl.js",
                 "~/Scripts/spa/home/indexCtrl.js"
                 ));
+
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/Scripts/Vendors/modernizr.js"));
 
