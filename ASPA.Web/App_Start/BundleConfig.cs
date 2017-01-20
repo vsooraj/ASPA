@@ -52,7 +52,8 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/layout/sideBar.directive.js",
                 "~/Scripts/spa/layout/customPager.directive.js",
                 "~/Scripts/spa/home/rootCtrl.js",
-                "~/Scripts/spa/home/indexCtrl.js"
+                "~/Scripts/spa/home/indexCtrl.js",
+                "~/Scripts/spa/rental/rentStatsCtrl.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(

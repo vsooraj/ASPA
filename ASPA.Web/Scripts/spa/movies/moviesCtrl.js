@@ -29,7 +29,11 @@
                 }
             };
 
-            apiService.get('/api/movies/', config,
+            //apiService.get('/api/movies/', config,
+            //moviesLoadCompleted,
+            //moviesLoadFailed);
+
+            apiService.get('Scripts/spa/movies/moviesMock.json', config,
             moviesLoadCompleted,
             moviesLoadFailed);
         }
@@ -41,9 +45,9 @@
             $scope.totalCount = result.data.TotalCount;
             $scope.loadingMovies = false;
 
-            if ($scope.filterMovies && $scope.filterMovies.length) {
-                notificationService.displayInfo(result.data.Items.length + ' movies found');
-            }
+            //if ($scope.filterMovies && $scope.filterMovies.length) {
+            //    notificationService.displayInfo(result.data.Items.length + ' movies found');
+            //}
 
         }
 

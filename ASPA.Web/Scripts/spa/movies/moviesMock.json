@@ -1,0 +1,41 @@
+[
+  {
+    "Page": 0,
+    "TotalCount": 10,
+    "TotalPages": 1,
+        "Items": [
+      {
+        "ID": 1,
+        "Title": "Ted2",
+        "Description": null,
+        "Image": "ted2.jpg",
+        "Genre": "comdey",
+        "GenreId": 1,
+        "Director": "Seth MacFarlane",
+        "Writer": "Seth MacFarlane",
+        "Producer": "Scott Stuber",
+        "ReleaseDate": "2014-06-15",
+        "Rating": 3,
+        "TrailerURI": "https://www.youtube.com/watch?v=S3AVcCggRnU",
+        "IsAvailable": true,
+        "NumberOfStocks": 10
+      },
+      {
+        "ID": 2,
+        "Title": "SouthPaw",
+        "Description": null,
+        "Image": "southpaw.jpg",
+        "Genre": "Action",
+        "GenreId": 2,
+        "Director": "Antoine Fuqua",
+        "Writer": "Kurt Sutter",
+        "Producer": "Todd Black",
+        "ReleaseDate": "2014-06-15",
+        "Rating": 3,
+        "TrailerURI": "https://www.youtube.com/watch?v=S3AVcCggRnU",
+        "IsAvailable": true,
+        "NumberOfStocks": 10
+      }
+    ]
+  }
+]
