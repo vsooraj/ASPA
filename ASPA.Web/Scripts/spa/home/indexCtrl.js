@@ -55,7 +55,7 @@
         }
 
         function loadDataMock() {
-            apiService.get("Scripts/spa/home/moviesMock.json", null,
+            apiService.get("Scripts/spa/movies/moviesMock.json", null,
                 moviesLoadCompletedMock,
                 moviesLoadFailed);
 
@@ -65,7 +65,7 @@
         }
 
         function moviesLoadCompletedMock(result) {
-            $scope.latestMovies = result.data;
+            $scope.latestMovies = result.data[0].Items;
             $scope.loadingMovies = false;
         }
 

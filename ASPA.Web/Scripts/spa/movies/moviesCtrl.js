@@ -9,7 +9,7 @@
         $scope.pageClass = 'page-movies';
         $scope.loadingMovies = true;
         $scope.page = 0;
-        $scope.pagesCount = 0;
+        $scope.pagesCount = 1;
 
         $scope.Movies = [];
 
@@ -21,13 +21,14 @@
 
             $scope.loadingMovies = true;
 
-            var config = {
-                params: {
+            var config = [
+                {
+
                     page: page,
                     pageSize: 6,
                     filter: $scope.filterMovies
-                }
-            };
+                }];
+            
 
             //apiService.get('/api/movies/', config,
             //moviesLoadCompleted,
@@ -39,10 +40,10 @@
         }
 
         function moviesLoadCompleted(result) {
-            $scope.Movies = result.data.Items;
-            $scope.page = result.data.Page;
-            $scope.pagesCount = result.data.TotalPages;
-            $scope.totalCount = result.data.TotalCount;
+            $scope.Movies = result.data[0].Items;
+            $scope.page = result.data[0].Page;
+            $scope.pagesCount = result.data[0].TotalPages;
+            $scope.totalCount = result.data[0].TotalCount;
             $scope.loadingMovies = false;
 
             //if ($scope.filterMovies && $scope.filterMovies.length) {
