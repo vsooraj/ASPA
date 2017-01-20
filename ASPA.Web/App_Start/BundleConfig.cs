@@ -8,7 +8,7 @@ namespace ASPA.Web.App_Start
         public static void RegisterBundles(BundleCollection bundles)
         {
             bundles.Add(new ScriptBundle("~/bundles/vendors").Include(
-                 "~/Scripts/Vendors/jquery.js",
+                "~/Scripts/Vendors/jquery.js",
                 "~/Scripts/Vendors/bootstrap.js",
                 "~/Scripts/Vendors/toastr.js",
                 "~/Scripts/Vendors/jquery.raty.js",
@@ -33,14 +33,14 @@ namespace ASPA.Web.App_Start
                 "~/Content/css/site.css",
                 "~/Content/css/bootstrap.css",
                 "~/Content/css/bootstrap-theme.css",
-                 "~/Content/css/font-awesome.css",
+                "~/Content/css/font-awesome.css",
                 "~/Content/css/morris.css",
                 "~/Content/css/toastr.css",
                 "~/Content/css/jquery.fancybox.css",
                 "~/Content/css/loading-bar.css"));
 
             bundles.Add(new ScriptBundle("~/bundles/spa").Include(
-                 "~/Scripts/spa/modules/common.core.js",
+                "~/Scripts/spa/modules/common.core.js",
                 "~/Scripts/spa/modules/common.ui.js",
                 "~/Scripts/spa/app.js",
                 "~/Scripts/spa/home/rootCtrl.js",
@@ -51,7 +51,7 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/layout/topBar.directive.js",
                 "~/Scripts/spa/layout/sideBar.directive.js",
                 "~/Scripts/spa/layout/customPager.directive.js",
-                "~/Scripts/spa/directives/rating.directive.js",
+                "~/Scripts/spa/directives/componentRating.directive.js",
                 "~/Scripts/spa/directives/availableMovie.directive.js",
                 "~/Scripts/spa/home/rootCtrl.js",
                 "~/Scripts/spa/home/indexCtrl.js"
@@ -59,7 +59,6 @@ namespace ASPA.Web.App_Start
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
                 "~/Scripts/Vendors/modernizr.js"));
-
 
             BundleTable.EnableOptimizations = false;
         }

@@ -6,36 +6,31 @@
     },
     {
       "ID": 2,
-      "Name": "Soft",
-      "NumberOfMovies": 2
-    },
-    {
-      "ID": 3,
       "Name": "Jazz",
       "NumberOfMovies": 10
     },
     {
-      "ID": 4,
+      "ID": 3,
       "Name": "Classical",
       "NumberOfMovies": 2
     },
     {
-      "ID": 5,
+      "ID": 4,
       "Name": "Pop",
       "NumberOfMovies": 7
     },
     {
-      "ID": 6,
+      "ID": 5,
       "Name": "Country",
       "NumberOfMovies": 15
     },
     {
-      "ID": 7,
+      "ID": 6,
       "Name": "Folk",
       "NumberOfMovies": 4
     },
     {
-      "ID": 8,
+      "ID": 7,
       "Name": "Old",
       "NumberOfMovies": 9
     }
