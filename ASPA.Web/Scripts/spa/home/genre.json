@@ -1,0 +1,42 @@
+﻿[
+    {
+      "ID": 1,
+      "Name": "Rock",
+      "NumberOfMovies": 6
+    },
+    {
+      "ID": 2,
+      "Name": "Soft",
+      "NumberOfMovies": 2
+    },
+    {
+      "ID": 3,
+      "Name": "Jazz",
+      "NumberOfMovies": 10
+    },
+    {
+      "ID": 4,
+      "Name": "Classical",
+      "NumberOfMovies": 2
+    },
+    {
+      "ID": 5,
+      "Name": "Pop",
+      "NumberOfMovies": 7
+    },
+    {
+      "ID": 6,
+      "Name": "Country",
+      "NumberOfMovies": 15
+    },
+    {
+      "ID": 7,
+      "Name": "Folk",
+      "NumberOfMovies": 4
+    },
+    {
+      "ID": 8,
+      "Name": "Old",
+      "NumberOfMovies": 9
+    }
+  ]
