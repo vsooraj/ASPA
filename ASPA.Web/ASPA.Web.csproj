@@ -265,7 +265,6 @@
     <Content Include="Views\_ViewStart.cshtml" />
     <Content Include="Scripts\spa\home\genre.json" />
     <Content Include="Scripts\spa\movies\movies.json" />
-    <Content Include="Scripts\spa\customers\customer.json" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

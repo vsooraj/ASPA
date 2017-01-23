@@ -31,39 +31,6 @@
     "DateOfBirth": "0001-01-01T00:00:00",
     "Mobile": 9895656,
     "RegistrationDate": "0001-01-01T00:00:00"
-  },
-  {
-    "ID": 8,
-    "FirstName": "Rock",
-    "LastName": "Thomas",
-    "Email": "rock@gmail.com",
-    "IdentityCard": "AS787",
-    "UniqueKey": "00000000-0000-0000-0000-000000000000",
-    "DateOfBirth": "0001-01-01T00:00:00",
-    "Mobile": 9895656,
-    "RegistrationDate": "0001-01-01T00:00:00"
-  },
-  {
-    "ID": 9,
-    "FirstName": "Sandra",
-    "LastName": "Thomas",
-    "Email": "sandra@gmail.com",
-    "IdentityCard": "AS5445",
-    "UniqueKey": "00000000-0000-0000-0000-000000000000",
-    "DateOfBirth": "0001-01-01T00:00:00",
-    "Mobile": 9895656,
-    "RegistrationDate": "0001-01-01T00:00:00"
-  },
-  {
-    "ID": 3,
-    "FirstName": "Solomon",
-    "LastName": "Thomas",
-    "Email": "solomon@gmail.com",
-    "IdentityCard": "AS5789",
-    "UniqueKey": "00000000-0000-0000-0000-000000000000",
-    "DateOfBirth": "0001-01-01T00:00:00",
-    "Mobile": 9895656,
-    "RegistrationDate": "0001-01-01T00:00:00"
   }
 
 ]
