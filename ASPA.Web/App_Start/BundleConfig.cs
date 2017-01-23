@@ -57,7 +57,8 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/directives/componentRating.directive.js",
                 "~/Scripts/spa/directives/availableMovie.directive.js",
                 "~/Scripts/spa/home/rootCtrl.js",
-                "~/Scripts/spa/home/indexCtrl.js"
+                "~/Scripts/spa/home/indexCtrl.js",
+                "~/Scripts/spa/rental/rentStatsCtrl.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(

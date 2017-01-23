@@ -1,0 +1,30 @@
+[
+  {
+    "ID": 1,
+    "Title": "Ted2",
+    "Image": "ted2.jpg",
+    "TotalRentals": 10,
+    "Rentals": [
+      {
+        "TotalRentals": 4,
+        "Date": "2017-01-31"
+      },
+      {
+        "TotalRentals": 2,
+        "Date": "2017-02-31"
+      },
+      {
+        "TotalRentals": 6,
+        "Date": "2017-03-31"
+      },
+      {
+        "TotalRentals": 1,
+        "Date": "2017-04-31"
+      },
+      {
+        "TotalRentals": 8,
+        "Date": "2017-04-31"
+      }
+    ]
+  }
+]
