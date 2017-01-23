@@ -1,10 +1,9 @@
-[
-  {
+{
     "Page": 0,
     "TotalCount": 7,
     "TotalPages": 2,
     "Items": [
-            {
+      {
         "ID": 1,
         "Title": "Minions",
         "Description": "Minions Stuart, Kevin and Bob are recruited by Scarlet Overkill, a super-villain who, alongside her inventor husband Herb, hatches a plot to take over the world.",
@@ -101,5 +100,4 @@
         "NumberOfStocks": 10
       }
     ]
-  }
-]
+}

@@ -65,7 +65,7 @@
         }
 
         function moviesLoadCompletedMock(result) {
-            $scope.latestMovies = result.data[0].Items;
+            $scope.latestMovies = result.data.Items;
             $scope.loadingMovies = false;
         }
 

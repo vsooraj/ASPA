@@ -40,10 +40,10 @@
         }
 
         function moviesLoadCompleted(result) {
-            $scope.Movies = result.data[0].Items;
-            $scope.page = result.data[0].Page;
-            $scope.pagesCount = result.data[0].TotalPages;
-            $scope.totalCount = result.data[0].TotalCount;
+            $scope.Movies = result.data.Items;
+            $scope.page = result.data.Page;
+            $scope.pagesCount = result.data.TotalPages;
+            $scope.totalCount = result.data.TotalCount;
             $scope.loadingMovies = false;
 
             //if ($scope.filterMovies && $scope.filterMovies.length) {
