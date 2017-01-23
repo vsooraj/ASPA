@@ -56,8 +56,11 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/layout/customPager.directive.js",
                 "~/Scripts/spa/directives/componentRating.directive.js",
                 "~/Scripts/spa/directives/availableMovie.directive.js",
+                 "~/Scripts/spa/account/loginCtrl.js",
+                "~/Scripts/spa/account/registerCtrl.js",
                 "~/Scripts/spa/home/rootCtrl.js",
                 "~/Scripts/spa/home/indexCtrl.js",
+                 "~/Scripts/spa/rental/rentMovieCtrl.js",
                 "~/Scripts/spa/rental/rentStatsCtrl.js"
                 ));
 
