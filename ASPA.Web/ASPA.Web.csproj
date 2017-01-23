@@ -211,7 +211,9 @@
     <Content Include="Scripts\spa\layout\topBar.html" />
     <Content Include="Scripts\spa\modules\common.core.js" />
     <Content Include="Scripts\spa\modules\common.ui.js" />
+    <Content Include="Scripts\spa\movies\add.html" />
     <Content Include="Scripts\spa\movies\details.html" />
+    <Content Include="Scripts\spa\movies\movieAddCtrl.js" />
     <Content Include="Scripts\spa\movies\movieDetailsCtrl.js" />
     <Content Include="Scripts\spa\movies\movies.html" />
     <Content Include="Scripts\spa\movies\moviesCtrl.js" />
@@ -220,6 +222,7 @@
     <Content Include="Scripts\spa\rental\rentMovieModal.html" />
     <Content Include="Scripts\spa\rental\rentStatsCtrl.js" />
     <Content Include="Scripts\spa\services\apiService.js" />
+    <Content Include="Scripts\spa\services\fileUploadService.js" />
     <Content Include="Scripts\spa\services\notificationService.js" />
     <Content Include="Scripts\vendors\angucomplete-alt.min.js" />
     <Content Include="Scripts\vendors\angular-base64.js" />

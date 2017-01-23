@@ -45,6 +45,7 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/app.js",
                 "~/Scripts/spa/home/rootCtrl.js",
                 "~/Scripts/spa/movies/moviesCtrl.js",
+                "~/Scripts/spa/movies/movieAddCtrl.js",
                 "~/Scripts/spa/services/apiService.js",
                 "~/Scripts/spa/services/notificationService.js",
                 "~/Scripts/spa/app.js",
@@ -61,7 +62,9 @@ namespace ASPA.Web.App_Start
                 "~/Scripts/spa/home/rootCtrl.js",
                 "~/Scripts/spa/home/indexCtrl.js",
                  "~/Scripts/spa/rental/rentMovieCtrl.js",
-                "~/Scripts/spa/rental/rentStatsCtrl.js"
+                "~/Scripts/spa/rental/rentStatsCtrl.js",
+                "~/Scripts/spa/services/fileUploadService.js"
+
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/modernizr").Include(
